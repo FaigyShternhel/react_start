@@ -1,5 +1,5 @@
 import React from 'react';
-import AppHw from './appHw';
+import AppHw from './comps/appHw'
 import './App.css';
 
 function App() {
