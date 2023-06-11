@@ -10,7 +10,7 @@ export default class AppDate extends Component{
         return(
             <div className="container">
                 <ViewDate deedline1={this.state.deadline}/>
-                <InputDate changeDate={this.changeDate}/>
+                <InputDate changeDate={this.onChangeDate}/>
             </div>
         )
     }

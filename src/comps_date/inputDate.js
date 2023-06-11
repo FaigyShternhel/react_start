@@ -11,7 +11,10 @@ export default class InputDate extends Component{
 
     render(){
         return(
-            <div className="col-md-4 mx-auto d-flex"></div>
+            <div className="col-md-4 mx-auto d-flex">
+                <input ref={this.inputRef} className="form-control" type="date" defaultValue="2024-01-01"/>
+                <button onClick={this.onChangeDate} className="btn btn-info">Change</button>
+            </div>
         )
     }
 }
