@@ -12,7 +12,7 @@ export default class ViewDate extends Component {
         }
     }
     calcDays = (_newDate) => {
-        let time = Data.parse(_newDate) - Date.now();
+        let time = Date.parse(_newDate) - Date.now();
         let newDate = Math.floor(time / (1000 * 60 * 60 * 24))
         this.setState({ days: newDate });
 
