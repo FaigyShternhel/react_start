@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react'
-import AppHw from './comp_HW/appHw'
+import AppTv from './hooks_comps/appTv'
 
 export default class App extends Component {
   render() {
     return (
       <React.Fragment>
         <hr />
-        <AppHw />
+        <AppTv />
         <hr />
       </React.Fragment>
     )
