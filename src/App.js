@@ -1,15 +1,18 @@
+// import logo from './logo.svg';
+import './App.css';
+import React from 'react';
+import AppHw from './comps_hw/appHw';
+import AppRoutes from './comps_hw/appRouters';
+import Coins from './coins/coins';
+// import AppRoutes from './comps_routes/appRoutes';
 
-import React, { Component } from 'react'
-
-
-export default class App extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <hr />
-        <h1>hollo</h1>
-        <hr />
-      </React.Fragment>
-    )
-  }
+function App() {
+  return (
+    <React.Fragment>
+      <AppRoutes />
+      {/* <Coins /> */}
+    </React.Fragment>
+  );
 }
+
+export default App;
