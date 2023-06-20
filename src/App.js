@@ -6,7 +6,8 @@ import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
+
 import { BrowserRouter as Router, Navigate, Route, Routes } from "react-router-dom";
 import Success from "./pages/Success";
 import { useSelector } from "react-redux";
